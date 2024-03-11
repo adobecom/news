@@ -7,7 +7,7 @@ The Franklin based project for creative cloud pages on www.adobe.com. Based off 
 3. Open this repo's folder in your favorite editor and start coding.
 
 ## Testing Milo Changes on News Pages
-1. Run 'aem up' in this folder to ensure the cc site is running locally. 
+1. Run 'aem up' in this folder to ensure the news site is running locally. 
 2. Make changes in milo, and then from the milo folder, run `npm run libs`.
 3. Milo will run at:
 ```
