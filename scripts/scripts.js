@@ -27,6 +27,9 @@ const CONFIG = {
   // geoRouting: 'off',
   // fallbackRouting: 'off',
   decorateArea,
+  live: {
+    pdfViewerClientId: '7eccb9df7f684a54abc5b28e8b0044f3',
+  },
   locales: {
     '': { ietf: 'en-US', tk: 'hah7vzn.css' },
     de: { ietf: 'de-DE', tk: 'hah7vzn.css' },
