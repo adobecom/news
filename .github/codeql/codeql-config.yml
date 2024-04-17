@@ -1,0 +1,4 @@
+name: "News CodeQL Config"
+
+paths-ignore:
+  - node_modules
