@@ -1,0 +1,30 @@
+version: 1.0
+
+snow:
+  - id: 547341 # Milo Newsroom
+
+notifications:
+  jira:
+    default:
+      project: MWPW # Mandatory
+      filters:
+        include:
+          risk_rating: R5
+      fields:
+        assignee:
+          name: tek10248
+        customfield_11800: DOTCOM-116368 #epic link
+        customfield_12900: 
+          value: Brahmos
+        watchers:
+          - casalino
+          - jmichnow
+          - mauchley
+          - tek10248
+          - dstrong
+        labels:
+          - "OriginatingProcess=Kodiak"
+          - "security"
+          - "kodiak-ticket"
+        components:
+          - name: "DevOps Security" 
