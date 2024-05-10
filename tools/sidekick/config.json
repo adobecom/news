@@ -56,6 +56,14 @@
     },
     {
       "containerId": "tools",
+      "title": "Send to CaaS",
+      "id": "sendtocaas",
+      "environments": ["dev","preview", "live", "prod"],
+      "event": "send-to-caas",
+      "excludePaths": ["https://milo.adobe.com/tools/caas**", "*.json"]
+    },
+    {
+      "containerId": "tools",
       "id": "locales",
       "title": "Locales",
       "environments": [
@@ -72,6 +80,15 @@
       "includePaths": [
         "**.docx**"
       ]
+    },
+    {
+      "containerId": "tools",
+      "id": "caas-configurator",
+      "title": "CaaS Configurator",
+      "environments": [ "edit", "preview", "dev" ],
+      "url": "https://milo.adobe.com/tools/caas",
+      "isPalette": false,
+      "includePaths": [ "**.docx**"]
     }
   ]
 }
