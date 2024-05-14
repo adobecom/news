@@ -1,0 +1,14 @@
+
+version: 1
+
+sitemaps:
+  news:
+    origin: https://news.adobe.com
+    lastmod: YYYY-MM-DD
+    default: en
+    languages:
+      en:
+        source: /assets/query-index.json
+        alternate: /{path}.html
+        destination: /assets/sitemap.xml
+        hreflang: en     
