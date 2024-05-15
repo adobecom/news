@@ -56,6 +56,15 @@
     },
     {
       "containerId": "tools",
+      "title": "Tag Selector",
+      "id": "tag-selector",
+      "environments": ["edit"],
+      "url": "https://milo.adobe.com/tools/tag-selector",
+      "isPalette": true,
+      "paletteRect": "top: 150px; left: 7%; height: 675px; width: 85vw;"
+    },
+    {
+      "containerId": "tools",
       "title": "Send to CaaS",
       "id": "sendtocaas",
       "environments": ["dev","preview", "live", "prod"],
