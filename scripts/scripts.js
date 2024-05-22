@@ -31,9 +31,11 @@ const CONFIG = {
     edgeConfigId: '72b074a6-76d2-43de-a210-124acc734f1c',
   },
   stage: {
+    pdfViewerClientId: '52092f4f87194756a2f344c9849ca34a',
     edgeConfigId: '72b074a6-76d2-43de-a210-124acc734f1c',
   },
   prod: {
+    pdfViewerClientId: '2247575709e1419c90edba7caeb215ad',
     edgeConfigId: '913eac4d-900b-45e8-9ee7-306216765cd2',
   },
   locales: {
