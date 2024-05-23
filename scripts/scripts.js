@@ -38,8 +38,17 @@ const CONFIG = {
   },
   locales: {
     '': { ietf: 'en-US', tk: 'hah7vzn.css' },
-    de: { ietf: 'de-DE', tk: 'hah7vzn.css' },
-    kr: { ietf: 'ko-KR', tk: 'zfo3ouc' },
+    en: { ietf: 'en-US', tk: 'hah7vzn.css' },
+    de: { ietf: 'de', tk: 'hah7vzn.css' },
+    ko: { ietf: 'ko', tk: 'zfo3ouc' },
+    es: { ietf: 'es', tk: 'oln4yqj.css' },
+    fr: { ietf: 'fr', tk: 'vrk5vyv.css' },
+    it: { ietf: 'it', tk: 'bbf5pok.css' },
+    jp: { ietf: 'ja-JP', tk: 'dvg6awq' },
+    kr: { ietf: 'ko', tk: 'qjs5sfm' },
+    br: { ietf: 'pt-BR', tk: 'inq1xob.css' },
+    'en/uk': { ietf: 'en', tk: 'hah7vzn.css' },
+    'en/apac': { ietf: 'en', tk: 'hah7vzn.css' },
   },
 };
 
