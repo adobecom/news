@@ -36,7 +36,7 @@ export const [setLibs, getLibs] = (() => {
  * Note: This file should have no self-invoking functions.
  * ------------------------------------------------------------
  */
-
+// eslint-disable-next-line no-unused-vars
 export function decorateArea(area = document) {
   const eagerLoad = (parent, selector) => {
     const img = parent.querySelector(selector);
