@@ -36,7 +36,7 @@ export const [setLibs, getLibs] = (() => {
  * Note: This file should have no self-invoking functions.
  * ------------------------------------------------------------
  */
-
+// eslint-disable-next-line no-unused-vars
 export function decorateArea(area = document) {
   const eagerLoad = (parent, selector) => {
     const img = parent.querySelector(selector);
@@ -49,14 +49,10 @@ export function decorateArea(area = document) {
       eagerLoad(document, 'img');
       return;
     }
-  
+
     // First image of first row
     eagerLoad(marquee, 'div:first-child img');
     // Last image of last column of last row
     eagerLoad(marquee, 'div:last-child > div:last-child img');
   }());
-}
-
-export async function useMiloSample() {
-  const { createTag } = await import(`${getLibs()}/utils/utils.js`);
 }
