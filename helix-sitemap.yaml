@@ -9,6 +9,6 @@ sitemaps:
     languages:
       en:
         source: /assets/query-index.json
-        alternate: /{path}.html
+        alternate: /{path}
         destination: /assets/sitemap.xml
         hreflang: en     
