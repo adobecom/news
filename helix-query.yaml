@@ -9,7 +9,7 @@ indices:
       - '**/fragments/**'
     include:
       - /
-      - /media-asset
+      - /media-assets
       - /news/**
     target: /assets/query-index.xlsx
     properties:
