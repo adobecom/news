@@ -8,6 +8,8 @@ indices:
       - '**/drafts/**'
       - '**/fragments/**'
     include:
+      - /
+      - /media-assets
       - /news/**
     target: /assets/query-index.xlsx
     properties:
