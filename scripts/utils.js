@@ -39,8 +39,11 @@ export const [setLibs, getLibs] = (() => {
 // eslint-disable-next-line no-unused-vars
 export function decorateArea(area = document) {
   const eagerLoad = (parent, selector) => {
+    let lcpImgSet = false;
     const img = parent.querySelector(selector);
-    img?.removeAttribute('loading');
+    img?.setAttribute('loading', 'eager');
+    img?.setAttribute('fetchpriority', 'high');
+    if (img) lcpImgSet = true;
   };
 
   (async function loadLCPImage() {
