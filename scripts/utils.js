@@ -46,7 +46,8 @@ export function decorateArea(area = document) {
   (async function loadLCPImage() {
     const marquee = document.querySelector('.marquee');
     if (!marquee) {
-      eagerLoad(document, 'img');
+      const area = document.querySelector('main');
+      eagerLoad(area, 'img');
       return;
     }
 
