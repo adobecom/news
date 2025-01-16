@@ -7,6 +7,8 @@ indices:
       - '**/footer**'
       - '**/drafts/**'
       - '**/fragments/**'
+      - '**/downloads/**'
+      - '**/templates/**'
     include:
       - /
       - /media-assets
