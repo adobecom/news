@@ -1,4 +1,5 @@
 {
+  "project": "Adobe News",
   "plugins": [
     {
       "id": "library",
