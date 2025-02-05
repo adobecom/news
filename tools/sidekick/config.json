@@ -4,9 +4,9 @@
     {
       "id": "library",
       "title": "Library",
-      "environments": [
-        "edit"
-      ],
+      "previewHost": "main--news--adobecom.aem.page",
+      "liveHost": "main--news--adobecom.aem.live",
+      "environments": [ "edit" ],
       "isPalette": true,
       "passConfig": true,
       "paletteRect": "top: auto; bottom: 20px; left: 20px; height: 398px; width: 360px;",
@@ -25,7 +25,7 @@
       "id": "localize",
       "title": "Localize",
       "environments": [ "edit" ],
-      "url": "https://main--milo--adobecom.hlx.page/tools/loc/index.html?project=news--adobecom",
+      "url": "https://main--milo--adobecom.aem.page/tools/loc/index.html?project=news--adobecom",
       "passReferrer": true,
       "includePaths": [ "**/:x**" ]
     },
@@ -34,7 +34,7 @@
       "id": "localize-2",
       "title": "Localize (V2)",
       "environments": [ "edit" ],
-      "url": "https://main--news--adobecom.hlx.page/tools/loc?milolibs=locui",
+      "url": "https://main--news--adobecom.aem.page/tools/loc?milolibs=locui",
       "passReferrer": true,
       "passConfig": true,
       "includePaths": [ "**.xlsx**" ]
