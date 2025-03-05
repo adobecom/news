@@ -27,7 +27,7 @@ const CONFIG = {
   // fallbackRouting: 'off',
   decorateArea,
   live: {
-    pdfViewerClientId: 'a1298f6c3b5e488bb803d01c017e2107',
+    pdfViewerClientId: 'cbaeef5374204b1c9fce05067674351b',
     edgeConfigId: '72b074a6-76d2-43de-a210-124acc734f1c',
   },
   stage: {
@@ -39,7 +39,7 @@ const CONFIG = {
     edgeConfigId: '913eac4d-900b-45e8-9ee7-306216765cd2',
   },
   page: {
-    pdfViewerClientId: '7cb8376db6774989a4d549182e747890',
+    pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9',
   },
   hlxPage: {
     pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749',
