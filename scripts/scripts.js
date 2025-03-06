@@ -39,8 +39,7 @@ const CONFIG = {
     edgeConfigId: '913eac4d-900b-45e8-9ee7-306216765cd2',
   },
   page: {
-    pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9',
-  },
+    pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9',},
   hlxPage: {
     pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749',
   },
