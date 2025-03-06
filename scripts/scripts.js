@@ -41,8 +41,7 @@ const CONFIG = {
   page: {
     pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9',},
   hlxPage: {
-    pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749',
-  },
+    pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749',},
   hlxLive: {pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f',
   },
   locales: {
