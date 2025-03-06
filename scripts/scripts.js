@@ -57,7 +57,7 @@ const CONFIG = {
     it: { ietf: 'it', tk: 'bbf5pok.css' },
     ja: { ietf: 'ja-JP', tk: 'dvg6awq' },
     ko: { ietf: 'ko', tk: 'qjs5sfm' },
-    'en/uk': { ietf: 'en', tk: 'hah7vzn.css' },
+    'en/gb': { ietf: 'en', tk: 'hah7vzn.css' },
     'en/apac': { ietf: 'en', tk: 'hah7vzn.css' },
   },
 };
