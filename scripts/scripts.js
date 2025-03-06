@@ -43,8 +43,7 @@ const CONFIG = {
   hlxPage: {
     pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749',
   },
-  hlxLive: {
-    pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f',
+  hlxLive: {pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f',
   },
   locales: {
     '': { ietf: 'en-US', tk: 'hah7vzn.css' },
