@@ -22,15 +22,6 @@
     },
     {
       "containerId": "tools",
-      "id": "localize",
-      "title": "Localize",
-      "environments": [ "edit" ],
-      "url": "https://main--milo--adobecom.aem.page/tools/loc/index.html?project=news--adobecom",
-      "passReferrer": true,
-      "includePaths": [ "**/:x**" ]
-    },
-    {
-      "containerId": "tools",
       "id": "localize-2",
       "title": "Localize (V2)",
       "environments": [ "edit" ],
@@ -103,6 +94,15 @@
       "title": "CaaS Configurator",
       "environments": [ "edit", "preview", "dev" ],
       "url": "https://milo.adobe.com/tools/caas",
+      "isPalette": false,
+      "includePaths": [ "**.docx**"]
+    },
+    {
+      "containerId": "tools",
+      "id": "caas-bulkpublihser",
+      "title": "CaaS BulkPublisher",
+      "environments": [ "edit", "preview", "dev" ],
+      "url": "https://milo.adobe.com/tools/send-to-caas/bulkpublisher.html",
       "isPalette": false,
       "includePaths": [ "**.docx**"]
     },
