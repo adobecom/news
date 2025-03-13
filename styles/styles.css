@@ -8,7 +8,7 @@
     width: 523px;
   }
 
-  .region-nav > div:nth-of-type(2) {
+  .region-nav > div:nth-of-type(2)[data-valign="middle"] {
     column-count: 3;
   }
 }
