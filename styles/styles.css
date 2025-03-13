@@ -1,8 +1,14 @@
 /* 
  * Put project specific base styles here.
  *
- * Note: The proect does not load this file.
- *       You will need to load these using scripts.js.
- * 
- *
  */
+
+@media (min-width: 1200px) {
+  .dialog-modal#langnav {
+    width: 523px;
+  }
+
+  .region-nav > div:nth-of-type(2) {
+    column-count: 3;
+  }
+}
