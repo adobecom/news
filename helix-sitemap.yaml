@@ -37,8 +37,14 @@ sitemaps:
         destination: /ko/assets/sitemap.xml
         hreflang: ko
 
-      news-en:
-        source: /en/assets/query-index.json
-        alternate: /en/{path}.html
-        destination: /en/assets/sitemap.xml
+      news-apac:
+        source: /en/apac/assets/query-index.json
+        alternate: /en/apac/{path}.html
+        destination: /en/apac/assets/sitemap.xml
         hreflang: en
+
+      news-gb:
+        source: /en/gb/assets/query-index.json
+        alternate: /en/gb/{path}.html
+        destination: /en/gb/assets/sitemap.xml
+        hreflang: en-GB
