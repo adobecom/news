@@ -13,37 +13,37 @@ sitemaps:
         destination: /assets/sitemap.xml
         hreflang: en
 
-      news-de:
+      de:
         source: /de/assets/query-index.json
         alternate: /de/{path}.html
         destination: /de/assets/sitemap.xml
         hreflang: de
 
-      news-fr:
+      fr:
         source: /fr/assets/query-index.json
         alternate: /fr/{path}.html
         destination: /fr/assets/sitemap.xml
         hreflang: fr
 
-      news-ja:
+      ja:
         source: /ja/assets/query-index.json
         alternate: /ja/{path}.html
         destination: /ja/assets/sitemap.xml
         hreflang: ja
 
-      news-ko:
+      ko:
         source: /ko/assets/query-index.json
         alternate: /ko/{path}.html
         destination: /ko/assets/sitemap.xml
         hreflang: ko
 
-      news-apac:
+      en-apac:
         source: /en/apac/assets/query-index.json
         alternate: /en/apac/{path}.html
         destination: /en/apac/assets/sitemap.xml
         hreflang: en
 
-      news-gb:
+      en-gb:
         source: /en/gb/assets/query-index.json
         alternate: /en/gb/{path}.html
         destination: /en/gb/assets/sitemap.xml
