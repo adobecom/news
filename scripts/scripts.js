@@ -19,12 +19,9 @@ const STYLES = '';
 const LIBS = '/libs';
 // Add any config options.
 const CONFIG = {
-  // codeRoot: '',
-  // contentRoot: '',
   imsClientId: 'newsroom-helix',
-  // imsScope: 'AdobeID,openid,gnav',
+  prodDomains: ['www.adobe.com', 'news.adobe.com', 'business.adobe.com', 'helpx.adobe.com'],
   // geoRouting: 'off',
-  // fallbackRouting: 'off',
   decorateArea,
   live: {
     pdfViewerClientId: 'cbaeef5374204b1c9fce05067674351b',
