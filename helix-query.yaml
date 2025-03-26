@@ -33,3 +33,51 @@ indices:
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, 'content')
+
+  german:
+    <<: *default
+    include:
+      - /de/
+      - /de/media-assets
+      - /de/news/**
+    target: /de/assets/query-index.xlsx
+
+  french:
+    <<: *default
+    include:
+       - /fr/
+       - /fr/media-assets
+       - /fr/news/**
+    target: /fr/assets/query-index.xlsx
+
+  japanese:
+    <<: *default
+    include:
+       - /ja/
+       - /ja/media-assets
+       - /ja/news/**
+    target: /ja/assets/query-index.xlsx
+
+  korean:
+    <<: *default
+    include:
+       - /ko/
+       - /ko/media-assets
+       - /ko/news/**
+    target: /ko/assets/query-index.xlsx  
+
+  english-apac:
+    <<: *default
+    include:
+       - /en/apac/
+       - /en/apac/media-assets
+       - /en/apac/news/**
+      target: /en/apac/assets/query-index.xlsx
+
+  english-gb:
+    <<: *default
+    include:
+       - /en/gb/
+       - /en/gb/media-assets
+       - /en/gb/news/**
+    target: /en/gb/assets/query-index.xlsx
