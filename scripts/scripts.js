@@ -41,6 +41,16 @@ const CONFIG = {
   page: { pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9' },
   hlxPage: { pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749' },
   hlxLive: { pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f' },
+  languages: {
+    en: {
+      ietf: 'en',
+      tk: 'hah7vzn.css',
+      regions: [
+        { region: 'gb', ietf: 'en-GB', tk: 'hah7vzn.css' },
+        { region: 'apac', ietf: 'en', tk: 'hah7vzn.css' },
+      ]
+    }
+  },
   locales: {
     '': { ietf: 'en-US', tk: 'hah7vzn.css' },
     br: { ietf: 'pt-BR', tk: 'inq1xob.css' },
@@ -51,8 +61,6 @@ const CONFIG = {
     it: { ietf: 'it', tk: 'bbf5pok.css' },
     ja: { ietf: 'ja-JP', tk: 'dvg6awq' },
     ko: { ietf: 'ko', tk: 'qjs5sfm' },
-    'en/gb': { ietf: 'en', tk: 'hah7vzn.css' },
-    'en/apac': { ietf: 'en', tk: 'hah7vzn.css' },
   },
 };
 
