@@ -22,6 +22,7 @@ const CONFIG = {
   // codeRoot: '',
   // contentRoot: '',
   imsClientId: 'newsroom-helix',
+  prodDomains: ['www.adobe.com', 'news.adobe.com', 'business.adobe.com', 'helpx.adobe.com'],
   // imsScope: 'AdobeID,openid,gnav',
   // geoRouting: 'off',
   // fallbackRouting: 'off',
