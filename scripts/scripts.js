@@ -45,23 +45,27 @@ const CONFIG = {
     en: {
       ietf: 'en',
       tk: 'hah7vzn.css',
+      languageBased: false,
       regions: [
         { region: 'gb', ietf: 'en-GB', tk: 'hah7vzn.css' },
         { region: 'apac', ietf: 'en', tk: 'hah7vzn.css' },
       ]
-    }
-  },
-  locales: {
-    '': { ietf: 'en-US', tk: 'hah7vzn.css' },
-    br: { ietf: 'pt-BR', tk: 'inq1xob.css' },
+    },
+    pt: {
+      ietf: 'pt',
+      tk: 'inq1xob.css',
+      regions: [
+        { region: 'br', ietf: 'pt-BR', tk: 'inq1xob.css' },
+      ]
+    },
     de: { ietf: 'de', tk: 'hah7vzn.css' },
-    en: { ietf: 'en-US', tk: 'hah7vzn.css' },
     es: { ietf: 'es', tk: 'oln4yqj.css' },
     fr: { ietf: 'fr', tk: 'vrk5vyv.css' },
     it: { ietf: 'it', tk: 'bbf5pok.css' },
-    ja: { ietf: 'ja-JP', tk: 'dvg6awq' },
-    ko: { ietf: 'ko', tk: 'qjs5sfm' },
+    ja: { ietf: 'ja-JP', tk: 'dvg6awq', region: 'jp' },
+    ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
   },
+  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' }}
 };
 
 // Decorate the page with site specific needs.
