@@ -83,5 +83,6 @@ const miloLibs = setLibs(LIBS);
   // eslint-disable-next-line no-unused-vars
   const config = setConfig({ ...CONFIG, miloLibs });
   loadLana({ clientId: 'news' });
+  window.lana?.log('Lana Message from Newsroom');
   await loadArea();
 }());
