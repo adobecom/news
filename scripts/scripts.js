@@ -22,7 +22,6 @@ const CONFIG = {
   // codeRoot: '',
   // contentRoot: '',
   imsClientId: 'newsroom-helix',
-  prodDomains: ['www.adobe.com', 'news.adobe.com', 'business.adobe.com', 'helpx.adobe.com'],
   // imsScope: 'AdobeID,openid,gnav',
   // geoRouting: 'off',
   // fallbackRouting: 'off',
@@ -66,6 +65,7 @@ const CONFIG = {
     ja: { ietf: 'ja-JP', tk: 'dvg6awq', region: 'jp' },
     ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
   },
+  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' }}
 };
 
 // Decorate the page with site specific needs.
