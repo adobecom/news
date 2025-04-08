@@ -45,7 +45,7 @@ const CONFIG = {
     en: {
       ietf: 'en',
       tk: 'hah7vzn.css',
-      languageBased: false,
+      rootPath: '',
       regions: [
         { region: 'gb', ietf: 'en-GB', tk: 'hah7vzn.css' },
         { region: 'apac', ietf: 'en', tk: 'hah7vzn.css' },
@@ -65,7 +65,6 @@ const CONFIG = {
     ja: { ietf: 'ja-JP', tk: 'dvg6awq', region: 'jp' },
     ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
   },
-  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' }}
 };
 
 // Decorate the page with site specific needs.
