@@ -46,25 +46,24 @@ const CONFIG = {
     en: {
       ietf: 'en',
       tk: 'hah7vzn.css',
-      rootPath: '',
       regions: [
-        { region: 'gb', tk: 'hah7vzn.css' },
-        { region: 'apac', ietf: 'en', tk: 'hah7vzn.css' },
+        { region: 'gb' },
+        { region: 'apac', ietf: 'en' },
       ]
     },
     pt: {
       ietf: 'pt',
       tk: 'inq1xob.css',
       regions: [
-        { region: 'br', ietf: 'pt-BR', tk: 'inq1xob.css' },
+        { region: 'br', tk: 'inq1xob.css' },
       ]
     },
     de: { ietf: 'de', tk: 'hah7vzn.css' },
     es: { ietf: 'es', tk: 'oln4yqj.css' },
     fr: { ietf: 'fr', tk: 'vrk5vyv.css' },
     it: { ietf: 'it', tk: 'bbf5pok.css' },
-    ja: { ietf: 'ja-JP', tk: 'dvg6awq', region: 'jp' },
-    ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
+    ja: { tk: 'dvg6awq', region: 'jp' },
+    ko: { tk: 'qjs5sfm', region: 'kr' },
   },
   locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' }}
 };
