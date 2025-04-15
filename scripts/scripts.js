@@ -49,14 +49,14 @@ const CONFIG = {
       regions: [
         { region: 'gb' },
         { region: 'apac', ietf: 'en' },
-      ]
+      ],
     },
     pt: {
       ietf: 'pt',
       tk: 'inq1xob.css',
       regions: [
         { region: 'br', tk: 'inq1xob.css' },
-      ]
+      ],
     },
     de: { ietf: 'de', tk: 'hah7vzn.css' },
     es: { ietf: 'es', tk: 'oln4yqj.css' },
@@ -65,7 +65,7 @@ const CONFIG = {
     ja: { tk: 'dvg6awq', region: 'jp' },
     ko: { tk: 'qjs5sfm', region: 'kr' },
   },
-  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' }}
+  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' } },
 };
 
 // Decorate the page with site specific needs.
