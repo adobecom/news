@@ -46,6 +46,7 @@ const CONFIG = {
     en: {
       ietf: 'en',
       tk: 'hah7vzn.css',
+      rootPath: '',
       regions: [
         { region: 'gb' },
         { region: 'apac', ietf: 'en' },
