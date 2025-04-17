@@ -63,8 +63,8 @@ const CONFIG = {
     es: { ietf: 'es', tk: 'oln4yqj.css' },
     fr: { ietf: 'fr', tk: 'vrk5vyv.css' },
     it: { ietf: 'it', tk: 'bbf5pok.css' },
-    ja: { tk: 'dvg6awq', region: 'jp' },
-    ko: { tk: 'qjs5sfm', region: 'kr' },
+    ja: { ietf: 'ja', tk: 'dvg6awq', region: 'jp' },
+    ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
   },
   locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' } },
 };
