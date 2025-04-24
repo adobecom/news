@@ -61,7 +61,7 @@ const CONFIG = {
       'helpx.adobe.com': 'helpx.stage.adobe.com',
       'blog.adobe.com': 'blog.stage.adobe.com',
     },
-  };
+  },
   languages: {
     en: {
       ietf: 'en',
