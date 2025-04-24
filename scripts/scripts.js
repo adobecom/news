@@ -44,19 +44,19 @@ const CONFIG = {
   hlxLive: { pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f' },
   stageDomainsMap: {
     'news.stage.adobe.com': {
-      'www.adobe.com(?!\\/content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/).*$': 'origin',
+      'www.adobe.com(?!\\/content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/).*$': 'www.stage.adobe.com',
       'business.adobe.com': 'business.stage.adobe.com',
       'helpx.adobe.com': 'helpx.stage.adobe.com',
       'blog.adobe.com': 'blog.stage.adobe.com',
-      'www.adobe.com': 'www.stage.adobe.com',
     },
     '--news--adobecom.(hlx|aem).live': {
       'business.adobe.com': 'business.adobe.com',
       'helpx.adobe.com': 'helpx.adobe.com',
       'blog.adobe.com': 'blog.adobe.com',
+      'www.adobe.com': 'www.adobe.com',
     },
     '--news--adobecom.(hlx|aem).page': {
-      'www.adobe.com(?!\\/content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/).*$': 'origin',
+      'www.adobe.com(?!\\/content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/).*$': 'www.stage.adobe.com',
       'business.adobe.com': 'business.stage.adobe.com',
       'helpx.adobe.com': 'helpx.stage.adobe.com',
       'blog.adobe.com': 'blog.stage.adobe.com',
