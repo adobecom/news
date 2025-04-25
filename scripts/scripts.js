@@ -48,6 +48,7 @@ const CONFIG = {
       'business.adobe.com': 'business.stage.adobe.com',
       'helpx.adobe.com': 'helpx.stage.adobe.com',
       'blog.adobe.com': 'blog.stage.adobe.com',
+      'news.adobe.com': 'origin'
     },
     '--news--adobecom.(hlx|aem).live': {
       'business.adobe.com': 'business.adobe.com',
