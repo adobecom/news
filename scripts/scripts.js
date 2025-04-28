@@ -55,12 +55,14 @@ const CONFIG = {
       'helpx.adobe.com': 'helpx.adobe.com',
       'blog.adobe.com': 'blog.adobe.com',
       'www.adobe.com': 'www.adobe.com',
+      'news.adobe.com': 'news.adobe.com',
     },
     '--news--adobecom.(hlx|aem).page': {
       'www.adobe.com(?!\\/*\\S*\\/(content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/)\\S*)': 'www.stage.adobe.com',
       'business.adobe.com': 'business.stage.adobe.com',
       'helpx.adobe.com': 'helpx.stage.adobe.com',
       'blog.adobe.com': 'blog.stage.adobe.com',
+      'news.adobe.com': 'news.stage.adobe.com',
     },
   },
   languages: {
