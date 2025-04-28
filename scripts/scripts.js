@@ -57,7 +57,6 @@ const CONFIG = {
       'www.adobe.com': 'www.adobe.com',
     },
     '--news--adobecom.(hlx|aem).page': {
-      'www.adobe.com(?!\\/content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/).*$': 'www.stage.adobe.com',
       'business.adobe.com': 'business.stage.adobe.com',
       'helpx.adobe.com': 'helpx.stage.adobe.com',
       'blog.adobe.com': 'blog.stage.adobe.com',
