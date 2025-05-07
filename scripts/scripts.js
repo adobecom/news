@@ -38,35 +38,58 @@ const CONFIG = {
     pdfViewerClientId: '2247575709e1419c90edba7caeb215ad',
     edgeConfigId: '913eac4d-900b-45e8-9ee7-306216765cd2',
   },
-  prodDomains: ['business.adobe.com', 'www.adobe.com', 'news.adobe.com'],
+  prodDomains: ['www.adobe.com', 'news.adobe.com', 'business.adobe.com', 'helpx.adobe.com'],
   page: { pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9' },
   hlxPage: { pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749' },
   hlxLive: { pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f' },
+  stageDomainsMap: {
+    'news.stage.adobe.com': {
+      'www.adobe.com(?!\\/*\\S*\\/(content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/)\\S*)': 'www.stage.adobe.com',
+      'business.adobe.com': 'business.stage.adobe.com',
+      'helpx.adobe.com': 'helpx.stage.adobe.com',
+      'blog.adobe.com': 'blog.stage.adobe.com',
+      'news.adobe.com': 'news.stage.adobe.com',
+    },
+    '--news--adobecom.(hlx|aem).live': {
+      'business.adobe.com': 'business.adobe.com',
+      'helpx.adobe.com': 'helpx.adobe.com',
+      'blog.adobe.com': 'blog.adobe.com',
+      'www.adobe.com': 'www.adobe.com',
+      'news.adobe.com': 'news.adobe.com',
+    },
+    '--news--adobecom.(hlx|aem).page': {
+      'www.adobe.com(?!\\/*\\S*\\/(content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/)\\S*)': 'www.stage.adobe.com',
+      'business.adobe.com': 'business.stage.adobe.com',
+      'helpx.adobe.com': 'helpx.stage.adobe.com',
+      'blog.adobe.com': 'blog.stage.adobe.com',
+      'news.adobe.com': 'news.stage.adobe.com',
+    },
+  },
   languages: {
     en: {
       ietf: 'en',
       tk: 'hah7vzn.css',
       rootPath: '',
       regions: [
-        { region: 'gb', ietf: 'en-GB', tk: 'hah7vzn.css' },
-        { region: 'apac', ietf: 'en', tk: 'hah7vzn.css' },
-      ]
+        { region: 'gb' },
+        { region: 'apac', ietf: 'en' },
+      ],
     },
     pt: {
       ietf: 'pt',
       tk: 'inq1xob.css',
       regions: [
-        { region: 'br', ietf: 'pt-BR', tk: 'inq1xob.css' },
-      ]
+        { region: 'br', tk: 'inq1xob.css' },
+      ],
     },
     de: { ietf: 'de', tk: 'hah7vzn.css' },
     es: { ietf: 'es', tk: 'oln4yqj.css' },
     fr: { ietf: 'fr', tk: 'vrk5vyv.css' },
     it: { ietf: 'it', tk: 'bbf5pok.css' },
-    ja: { ietf: 'ja-JP', tk: 'dvg6awq', region: 'jp' },
+    ja: { ietf: 'ja', tk: 'dvg6awq', region: 'jp' },
     ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
   },
-  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' }}
+  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' } },
 };
 
 // Decorate the page with site specific needs.
