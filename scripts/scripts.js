@@ -13,7 +13,7 @@
 import { setLibs, decorateArea } from './utils.js';
 
 // Add project-wide style path here.
-const STYLES = '';
+const STYLES = ['/styles/styles.css'];
 
 // Use 'https://milo.adobe.com/libs' if you cannot map '/libs' to milo's origin.
 const LIBS = '/libs';
@@ -38,22 +38,58 @@ const CONFIG = {
     pdfViewerClientId: '2247575709e1419c90edba7caeb215ad',
     edgeConfigId: '913eac4d-900b-45e8-9ee7-306216765cd2',
   },
+  prodDomains: ['www.adobe.com', 'news.adobe.com', 'business.adobe.com', 'helpx.adobe.com'],
   page: { pdfViewerClientId: 'a047957d3f3d46c08affb18ac02a1bc9' },
   hlxPage: { pdfViewerClientId: 'df45ae024b7a4a9fbeb7d306075c7749' },
   hlxLive: { pdfViewerClientId: '3a0c922fabdf4178804a3dfa410a254f' },
-  locales: {
-    '': { ietf: 'en-US', tk: 'hah7vzn.css' },
-    br: { ietf: 'pt-BR', tk: 'inq1xob.css' },
+  stageDomainsMap: {
+    'news.stage.adobe.com': {
+      'www.adobe.com(?!\\/*\\S*\\/(content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/)\\S*)': 'www.stage.adobe.com',
+      'business.adobe.com': 'business.stage.adobe.com',
+      'helpx.adobe.com': 'helpx.stage.adobe.com',
+      'blog.adobe.com': 'blog.stage.adobe.com',
+      'news.adobe.com': 'news.stage.adobe.com',
+    },
+    '--news--adobecom.(hlx|aem).live': {
+      'business.adobe.com': 'business.adobe.com',
+      'helpx.adobe.com': 'helpx.adobe.com',
+      'blog.adobe.com': 'blog.adobe.com',
+      'www.adobe.com': 'www.adobe.com',
+      'news.adobe.com': 'news.adobe.com',
+    },
+    '--news--adobecom.(hlx|aem).page': {
+      'www.adobe.com(?!\\/*\\S*\\/(content\\/dam\\/cc\\/en\\/investor-relations\\/pdfs\\/)\\S*)': 'www.stage.adobe.com',
+      'business.adobe.com': 'business.stage.adobe.com',
+      'helpx.adobe.com': 'helpx.stage.adobe.com',
+      'blog.adobe.com': 'blog.stage.adobe.com',
+      'news.adobe.com': 'news.stage.adobe.com',
+    },
+  },
+  languages: {
+    en: {
+      ietf: 'en',
+      tk: 'hah7vzn.css',
+      rootPath: '',
+      regions: [
+        { region: 'gb' },
+        { region: 'apac', ietf: 'en' },
+      ],
+    },
+    pt: {
+      ietf: 'pt',
+      tk: 'inq1xob.css',
+      regions: [
+        { region: 'br', tk: 'inq1xob.css' },
+      ],
+    },
     de: { ietf: 'de', tk: 'hah7vzn.css' },
-    en: { ietf: 'en-US', tk: 'hah7vzn.css' },
     es: { ietf: 'es', tk: 'oln4yqj.css' },
     fr: { ietf: 'fr', tk: 'vrk5vyv.css' },
     it: { ietf: 'it', tk: 'bbf5pok.css' },
-    ja: { ietf: 'ja-JP', tk: 'dvg6awq' },
-    ko: { ietf: 'ko', tk: 'qjs5sfm' },
-    'en/gb': { ietf: 'en', tk: 'hah7vzn.css' },
-    'en/apac': { ietf: 'en', tk: 'hah7vzn.css' },
+    ja: { ietf: 'ja', tk: 'dvg6awq', region: 'jp' },
+    ko: { ietf: 'ko', tk: 'qjs5sfm', region: 'kr' },
   },
+  locales: { '': { ietf: 'en-US', tk: 'hah7vzn.css' } },
 };
 
 // Decorate the page with site specific needs.
