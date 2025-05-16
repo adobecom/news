@@ -35,7 +35,7 @@ indices:
         value: attribute(el, 'content')
 
   german:
-    <<: *default
+    <<: *def
     include:
       - /de/
       - /de/media-assets
@@ -43,7 +43,7 @@ indices:
     target: /de/assets/query-index.xlsx
 
   french:
-    <<: *default
+    <<: *def
     include:
        - /fr/
        - /fr/media-assets
@@ -51,7 +51,7 @@ indices:
     target: /fr/assets/query-index.xlsx
 
   japanese:
-    <<: *default
+    <<: *def
     include:
        - /ja/
        - /ja/media-assets
@@ -59,7 +59,7 @@ indices:
     target: /ja/assets/query-index.xlsx
 
   korean:
-    <<: *default
+    <<: *def
     include:
        - /ko/
        - /ko/media-assets
@@ -67,7 +67,7 @@ indices:
     target: /ko/assets/query-index.xlsx  
 
   english-apac:
-    <<: *default
+    <<: *def
     include:
        - /en/apac/
        - /en/apac/media-assets
@@ -75,7 +75,7 @@ indices:
       target: /en/apac/assets/query-index.xlsx
 
   english-gb:
-    <<: *default
+    <<: *def
     include:
        - /en/gb/
        - /en/gb/media-assets
