@@ -2,3 +2,9 @@ user-agent: *
 allow: /
 
 Sitemap: https://news.adobe.com/assets/sitemap.xml
+Sitemap: https://news.adobe.com/de/assets/sitemap.xml
+Sitemap: https://news.adobe.com/en/apac/assets/sitemap.xml
+Sitemap: https://news.adobe.com/en/gb/assets/sitemap.xml
+Sitemap: https://news.adobe.com/fr/assets/sitemap.xml
+Sitemap: https://news.adobe.com/ja/assets/sitemap.xml
+Sitemap: https://news.adobe.com/ko/assets/sitemap.xml
