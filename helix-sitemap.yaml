@@ -15,36 +15,36 @@ sitemaps:
 
       de:
         source: /de/assets/query-index.json
-        alternate: /de/{path}.html
+        alternate: /de/{path}
         destination: /de/assets/sitemap.xml
         hreflang: de
 
       fr:
         source: /fr/assets/query-index.json
-        alternate: /fr/{path}.html
+        alternate: /fr/{path}
         destination: /fr/assets/sitemap.xml
         hreflang: fr
 
       ja:
         source: /ja/assets/query-index.json
-        alternate: /ja/{path}.html
+        alternate: /ja/{path}
         destination: /ja/assets/sitemap.xml
         hreflang: ja
 
       ko:
         source: /ko/assets/query-index.json
-        alternate: /ko/{path}.html
+        alternate: /ko/{path}
         destination: /ko/assets/sitemap.xml
         hreflang: ko
 
       en-apac:
         source: /en/apac/assets/query-index.json
-        alternate: /en/apac/{path}.html
+        alternate: /en/apac/{path}
         destination: /en/apac/assets/sitemap.xml
         hreflang: en
 
       en-gb:
         source: /en/gb/assets/query-index.json
-        alternate: /en/gb/{path}.html
+        alternate: /en/gb/{path}
         destination: /en/gb/assets/sitemap.xml
         hreflang: en-GB
