@@ -72,7 +72,7 @@ indices:
        - /en/apac/
        - /en/apac/media-assets
        - /en/apac/news/**
-      target: /en/apac/assets/query-index.xlsx
+    target: /en/apac/assets/query-index.xlsx
 
   english-gb:
     <<: *def
